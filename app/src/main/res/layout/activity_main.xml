@@ -10,16 +10,51 @@
         android:layout_height="wrap_content"
         android:text="Scan QR Code"
         android:id="@+id/btnScan"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="26dp"
+        android:layout_below="@+id/currHouse"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/currHouse"
+        android:autoText="false"
+        android:textSize="45dp"
+        android:text="House: "
+        android:layout_marginTop="24dp"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Text"
-        android:id="@+id/qrOutput"
-        android:layout_marginBottom="52dp"
-        android:layout_above="@+id/btnScan"
+        android:text=""
+        android:id="@+id/taskLoc"
+        android:textIsSelectable="false"
+        android:textSize="30dp"
+        android:layout_marginTop="69dp"
+        android:layout_below="@+id/btnScan"
         android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/taskDesc"
+        android:textSize="20dp"
+        android:layout_marginTop="41dp"
+        android:layout_below="@+id/taskLoc"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/test"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
 
 </RelativeLayout>
