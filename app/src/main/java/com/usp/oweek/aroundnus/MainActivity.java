@@ -112,7 +112,7 @@ public class MainActivity extends ActionBarActivity {
             case 2:
                 return "Nocturna";
             case 3:
-                return "Ursaisa";
+                return "Ursaia";
             case 4:
                 return "Triton";
             case 5:
